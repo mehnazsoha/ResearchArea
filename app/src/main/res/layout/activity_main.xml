@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/machineBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Machine and Deep Learning" />
+
+    <Button
+        android:id="@+id/imageBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image and Signal Processing" />
+
+    <Button
+        android:id="@+id/humanBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Human Computer Interaction (HCI)" />
+
+    <Button
+        android:id="@+id/virtualBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Augmented Reality (AR) and Virtual Reality (VR)" />
+
+    <Button
+        android:id="@+id/artificialBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artificial Intelligence (AI)" />
+
+    <Button
+        android:id="@+id/naturalBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Natural Language Processing (NLP)" />
+
+    <Button
+        android:id="@+id/dataBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Mining" />
+
+    <Button
+        android:id="@+id/bigBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Big Data Analysis" />
+
+    <Button
+        android:id="@+id/bioBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bioinformatics and Computational Biology" />
+
+    <Button
+        android:id="@+id/internetBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Internet of Things (IoT) and Intelligent Systems" />
+
+
+</LinearLayout>

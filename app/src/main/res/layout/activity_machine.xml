@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".machineActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SAH, SRH, MTH, ZH, SR, SL, RR, SBS, NN, AR, AAM, NJ, DMR, SI, FH, MRH,MOT, SNP, AAH, IF, MMM, RS, MR, ANM, SM, MRA, THT, FA, UD, MRK, RUH, MAH, SDB, SAB, MMR-C, FSN, SMAH, MMM, NSA, FI-C, AHN, MRN, EKM, MSS, AKMM, AA-C, MMH, ATP, LR, WRB, MIJ"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/machineMenuBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="137dp"
+        android:layout_marginRight="137dp"
+        android:layout_marginBottom="52dp"
+        android:layout_weight="1"
+        android:text="Menu" />
+
+</RelativeLayout>
